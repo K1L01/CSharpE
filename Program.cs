@@ -1,4 +1,6 @@
-﻿using System.Transactions;
+﻿using System.Globalization;
+using System.IO.Pipelines;
+using System.Transactions;
 
 public class Exercise1
 {
@@ -35,7 +37,7 @@ public class Exercise4
 }
 public class Exercise5
 {
-    public static void Main()
+    public static void MainExercise5()
     {
         int number1, number2, temp;
         
@@ -52,5 +54,21 @@ public class Exercise5
         Console.Write($"\nSecond Number is: {number2}");
         
         Console.Read(); //Keep the console open till key is pressed.
+    }
+}
+public class Exercise6
+{
+    public static void Main()
+    {
+        int num1,num2,num3,result; 
+        Console.Write("\nInput Number#1 for multiply: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input Number#2 for multiply: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input Number#3 for multiply: ");
+        num3 = Convert.ToInt32(Console.ReadLine());
+        result = num1 * num2 * num3;
+        Console.Write($"The Result: {num1} x {num2} x {num3} = {result}");
+        Console.Read();
     }
 }
