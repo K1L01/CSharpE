@@ -58,7 +58,7 @@ public class Exercise5
 }
 public class Exercise6
 {
-    public static void Main()
+    public static void MainExercise6()
     {
         int num1,num2,num3,result; 
         Console.Write("\nInput Number#1 for multiply: ");
@@ -71,5 +71,12 @@ public class Exercise6
         Console.Write($"The Result: {num1} x {num2} x {num3} = {result}");
         Console.Read(); // zzz
         Console.Read(); // Testing purposes
+    }
+}
+public class Exercise7
+{
+    public static void Main()
+    {
+        
     }
 }
