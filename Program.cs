@@ -69,6 +69,7 @@ public class Exercise6
         num3 = Convert.ToInt32(Console.ReadLine());
         result = num1 * num2 * num3;
         Console.Write($"The Result: {num1} x {num2} x {num3} = {result}");
-        Console.Read();
+        Console.Read(); // zzz
+        Console.Read(); // Testing purposes
     }
 }
