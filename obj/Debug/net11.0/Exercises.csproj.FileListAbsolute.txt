@@ -1,0 +1,14 @@
+D:\Projects\Exercises\bin\Debug\net11.0\Exercises.exe
+D:\Projects\Exercises\bin\Debug\net11.0\Exercises.deps.json
+D:\Projects\Exercises\bin\Debug\net11.0\Exercises.runtimeconfig.json
+D:\Projects\Exercises\bin\Debug\net11.0\Exercises.dll
+D:\Projects\Exercises\bin\Debug\net11.0\Exercises.pdb
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.AssemblyInfoInputs.cache
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.AssemblyInfo.cs
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.csproj.CoreCompileInputs.cache
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.dll
+D:\Projects\Exercises\obj\Debug\net11.0\refint\Exercises.dll
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.pdb
+D:\Projects\Exercises\obj\Debug\net11.0\Exercises.genruntimeconfig.cache
+D:\Projects\Exercises\obj\Debug\net11.0\ref\Exercises.dll
