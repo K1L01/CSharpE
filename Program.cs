@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.IO.Pipelines;
+using System.Security.Cryptography;
 using System.Transactions;
 
 public class Exercise1
@@ -75,8 +76,50 @@ public class Exercise6
 }
 public class Exercise7
 {
+    public static void MainExercise7()
+    {
+        Console.Write("Input#1: ");
+        int input1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input#2: ");
+        int input2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write($"{input1} + {input2} = {input1 + input2}");
+        Console.Write($"\n{input1} - {input2} = {input1 - input2}");
+        Console.Write($"\n{input1} x {input2} = {input1 * input2}");
+        Console.Write($"\n{input1} / {input2} = {input1 / input2}");
+        Console.Write($"\n{input1} mod {input2} = {input1 % input2}");
+        
+        // Prompting the user to enter the first number
+        Console.Write("\nEnter a number: ");
+        // Reading the first number entered by the user and converting it to an integer
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        // Prompting the user to enter the second number
+        Console.Write("Enter another number: ");
+        // Reading the second number entered by the user and converting it to an integer
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Displaying addition of the two numbers
+        Console.WriteLine("{0} + {1} = {2}", num1, num2, num1 + num2);
+
+        // Displaying subtraction of the two numbers
+        Console.WriteLine("{0} - {1} = {2}", num1, num2, num1 - num2);
+
+        // Displaying multiplication of the two numbers
+        Console.WriteLine("{0} x {1} = {2}", num1, num2, num1 * num2);
+
+        // Displaying division of the two numbers
+        Console.WriteLine("{0} / {1} = {2}", num1, num2, num1 / num2);
+
+        // Displaying modulus (remainder) of the two numbers
+        Console.WriteLine("{0} mod {1} = {2}", num1, num2, num1 % num2);
+    }
+}
+public class Exercise8
+{
     public static void Main()
     {
-        
+
     }
+
 }
