@@ -117,9 +117,52 @@ public class Exercise7
 }
 public class Exercise8
 {
-    public static void Main()
+    public static void MainExercise8()
     {
-
+        Console.Write("Enter a number to multiply: ");
+        int x = Convert.ToInt32(Console.ReadLine());
+        int result;
+        result = x * 1;
+        Console.Write("{0} x {1} = {2}", x, 1, result);
+        result = x * 2;
+        Console.Write("\n{0} x {1} = {2}", x, 2, result);
+        result = x * 3;
+        Console.Write("\n{0} x {1} = {2}", x, 3, result);
+        result = x * 4;
+        Console.Write("\n{0} x {1} = {2}", x, 4, result);
+        result = x * 5;
+        Console.Write("\n{0} x {1} = {2}", x, 5, result);
+        result = x * 6;
+        Console.Write("\n{0} x {1} = {2}", x, 6, result);
+        result = x * 7;
+        Console.Write("\n{0} x {1} = {2}", x, 7, result);
+        result = x * 8;
+        Console.Write("\n{0} x {1} = {2}", x, 8, result);
+        result = x * 9;
+        Console.Write("\n{0} x {1} = {2}", x, 9, result);
+        result = x * 10;
+        Console.Write("\n{0} x {1} = {2}", x, 10, result);
+       
     }
 
+}
+// git is hard.. -git add "filename"."filetype", git commit -m "comment", git push.
+public class Exercise9
+{
+    public static void Main()
+    {
+        Console.Write("Enter the First number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the Second number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the third number: ");
+        int num3 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the four number: ");
+        int num4 = Convert.ToInt32(Console.ReadLine());
+        int averageNum = (num1 + num2 + num3 + num4)/4;
+        Console.Write("The average number of {0}, {1}, {2}, {3} is {4}",
+         num1, num2, num3, num4, averageNum);
+        Console.Write("\nPress any key to close the window.");
+        Console.Read();
+    }
 }
