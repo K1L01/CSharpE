@@ -5,7 +5,7 @@ using System.Transactions;
 
 public class Exercise1
 {
-    public static void MainExercise1()
+    public static void Main()
     {
         Console.WriteLine("Hello");
         Console.WriteLine("Kristiyan Ivanov!");
@@ -149,7 +149,7 @@ public class Exercise8
 // git is hard.. -git add "filename"."filetype", git commit -m "comment", git push.
 public class Exercise9
 {
-    public static void Main()
+    public static void MainExercise9()
     {
         Console.Write("Enter the First number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
@@ -164,5 +164,40 @@ public class Exercise9
          num1, num2, num3, num4, averageNum);
         Console.Write("\nPress any key to close the window.");
         Console.Read();
+    }
+}
+public class Exercise10
+{
+    public static void MainExercise10()
+    {
+        Console.Write("Input the X Number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input the Y Number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input the Z Number: ");
+        int num3 = Convert.ToInt32(Console.ReadLine());
+        int result1 = (num1 + num2)* num3;
+        int result2 = num1 * num2 + num2 * num3;
+        Console.Write("Result of specified numbers, {0}, {1} and {2}, (X+Y).Z is {3} and X.Y + Y.Z is {4}", num1, num2, num3, result1, result2);
+    }
+}
+public class Exercise11
+{
+    public static void MainExercise11()
+    {
+        Console.Write("Enter your age: ");
+        int ageNum = Convert.ToInt32(Console.ReadLine());
+        Console.Write("You look younger than {0}",ageNum);
+        
+    }
+}
+public class Exercise12
+{
+    public static void MainExercise12()
+    {
+        Console.Write("Enter a digit: ");
+        int inputNum = Convert.ToInt32(Console.ReadLine());
+        Console.Write("{0} {0} {0} {0}\n{0}{0}{0}{0}\n", inputNum);
+        Console.Write("{0} {0} {0} {0}\n{0}{0}{0}{0}", inputNum);
     }
 }
