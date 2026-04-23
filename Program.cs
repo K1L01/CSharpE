@@ -1,11 +1,12 @@
 ﻿using System.Globalization;
 using System.IO.Pipelines;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Transactions;
 
 public class Exercise1
 {
-    public static void Main()
+    public static void MainExercise1()
     {
         Console.WriteLine("Hello");
         Console.WriteLine("Kristiyan Ivanov!");
@@ -201,3 +202,42 @@ public class Exercise12
         Console.Write("{0} {0} {0} {0}\n{0}{0}{0}{0}", inputNum);
     }
 }
+public class Exercise13
+{
+    public static void MainExercise13()
+    {
+        Console.Write("Enter a number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("{0} {0} {0}\n",num1);
+        Console.Write("{0}   {0}\n",num1);
+        Console.Write("{0}   {0}\n",num1);
+        Console.Write("{0}   {0}\n",num1);
+        Console.Write("{0} {0} {0}",num1);
+    }
+}
+public class Exercise14
+{
+    public static void MainExercise14()
+    {
+        Console.Write("Enter the ammount of celsius: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        int result = num1 + 273; // Kelvin
+        int result2 = num1 * 18/10 +32;
+        Console.Write("Kelvin = {0}\n",result);
+        Console.Write("Fahrenheit = {0}",result2);
+    }
+}
+public class Exercise15
+{
+    static void Main()
+    {
+        Console.Write(remove_char("w3resource\n", 1));
+        Console.Write(remove_char("w3resource\n", 9));
+        Console.Write(remove_char("w3resource", 0));
+    }
+    public static string remove_char(string str, int n)
+    {
+        return str.Remove(n, 1);
+    }
+}
+// ------------------TRANSITION to JS----------------------
